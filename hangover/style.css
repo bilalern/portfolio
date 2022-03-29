@@ -1,0 +1,146 @@
+.body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.navbar {
+    background-color: rgb(52,59,66) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar-nav {
+    margin-right: 45px;
+}
+.nav-item {
+    margin-right: 25px;
+}
+.nav-link:hover {
+    color: rgb(78,205,218)  !important;
+    
+}
+.main {
+    background: url("photo1.jpg");
+    height: 600px;
+
+}
+.main p {
+    position: relative;
+    top: 35%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main p:nth-child(1) {
+    font-size: 55px;
+}
+.main p:nth-child(3) {
+    font-size: 35px;
+}
+
+.main button {
+    position: relative;
+    top: 40%;
+    left: 45%;
+}
+
+.about {
+    height: 700px;
+    background-color: rgb(78,205,218);
+}
+.side {
+    height: 250px;
+}
+
+.side1 {
+    height: 400px;
+}
+.side1 img {
+    height: 350px;
+    width: 600px;
+    position: relative;
+    left: 10%;
+    top: 4%;
+}
+.side2 p {
+    position: relative;
+    top: 4%;
+}
+
+.side p {
+    position: relative;
+    top: 45%;
+    font-size: 36px;
+}
+
+.portfolio {
+    height: 1200px;
+    width: 100%;
+}
+
+.portfolio p:nth-child(1) {
+    color: rgb(78,205,218);
+    font-size: 35px;
+    position: relative;
+    top: 15%;
+}
+.btn-group {
+    position: relative;
+    top: 17%;
+    left: 36%;
+}
+.btn:hover {
+    background-color: rgb(78,205,218) !important;
+}
+
+.portfolio2  img {
+    width: 300px;
+    margin: 25px;
+}
+
+.portfolio2 {
+    margin-top: 195px;
+}
+.portfolio2  img:hover {
+    opacity: 0.6;
+    width: 350px;
+    transition: all 1s;
+    
+}
+
+.touch {
+    height: 500px;
+    background-color: rgb(78,205,218);
+}
+
+.touch p:nth-child(1) {
+    font-size: 35px;
+    position: relative;
+    top: 25%;
+}
+
+.row input {
+    width: 350px;
+    opacity: 0.8;
+}
+.row2 input {
+    width: 735px;
+    height: 100px;
+    opacity: 0.8;
+}
+
+
+.touch > .row {
+    position: relative;
+    top: 170px;
+}
+.touch > .btn {
+    position: relative;
+    left: 45%;
+    top: 38%;
+}
